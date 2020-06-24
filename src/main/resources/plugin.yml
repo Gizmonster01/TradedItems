@@ -1,0 +1,10 @@
+name: TradedItems
+version: ${project.version}
+main: me.gizmonster.tradeditems.MainClass
+api-version: 1.13
+authors: [gizmonster]
+description: Modifies the name and lore of traded items.
+commands:
+  tradeditems:
+    description: Provides arguments for the TradedItems plugin
+    aliases: [ti, tradeditems]

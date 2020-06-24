@@ -1,0 +1,21 @@
+# TradedItems
+# Modifies items that are recieved via villager trading with a name
+# and a set of lore.
+
+# If you want emeralds to have the same lore applied as other items, set this to true. Otherwise, I'd recommend leaving it false
+modify_emeralds:
+  enabled: false
+
+# The %item% placeholder puts the item's name there for the name field.
+traded_items:
+  name: "&aVillager %item%"
+  lore: "&7&oTraded Item"
+
+world_blacklist:
+  - world1
+  - world2
+  - world3
+
+# I enjoyed making this project for you, and know if you find any issues with it, I'd be more than happy to patch them.
+# You're actually my first customer and I hope I delivered. If this product did not meet your standards, do not hesitate
+# to let me know and I'll try to meet them. Thanks for commissioning this project.
